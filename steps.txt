@@ -1,0 +1,3 @@
+virtualenv ~/.virtualenv
+vim ~/.bashrc -> add this line " source ~/.venv/bin/activate" save and close. Open new bash so that it opens with new venv
+make install

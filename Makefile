@@ -24,7 +24,7 @@ format:
 lint:
 	pylint --disable=R,C *.py
 
-all: install lint test format
+all: install lint test1 format
 
 test1:
 	python -m pytest -vv test_hello.py
